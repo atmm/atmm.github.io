@@ -23,7 +23,7 @@ github_username: atmm
 
 # Build settings
 markdown: kramdown
-theme: creative-theme
+theme: # creative-theme
 gems:
   - jekyll-feed
 exclude:
