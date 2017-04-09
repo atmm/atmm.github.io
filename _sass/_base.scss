@@ -8,6 +8,10 @@ body {
     @include serif-font;
 }
 
+body {
+    -webkit-tap-highlight-color: $theme-dark;
+}
+
 hr {
     border-color: $theme-primary;
     border-width: 3px;
@@ -344,6 +348,6 @@ img::-moz-selection {
     background: transparent;
 }
 
-body {
-    -webkit-tap-highlight-color: $theme-dark;
+.member-text {
+    color: #CECECE;
 }
