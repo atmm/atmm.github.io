@@ -158,8 +158,8 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: center;
     background-image: url('../img/header.jpg');
+    background-position: center;
     text-align: center;
     color: rgb(240, 240, 250);
     .header-content {
@@ -207,6 +207,12 @@ header {
         }
     }
 }
+
+header.header-kururi {
+    background-image: url('../img/kururi/header.jpg');
+    background-position: center;
+}
+
 
 // Sections
 
